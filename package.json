@@ -1,7 +1,7 @@
 {
   "name": "gameloop-canvas",
   "description": "a gameloop designed for use the the html5 canvas tag",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "git://github.com/sethvincent/gameloop-canvas.git"
   },
@@ -13,5 +13,9 @@
   "dependencies": {
     "gameloop": "^0.3.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "^2.10.2",
+    "browserify": "^3.32.1",
+    "beefy": "^1.1.0"
+  }
 }
