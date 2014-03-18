@@ -1,5 +1,6 @@
 # gameloop-canvas
-> a gameloop designed for the html5 canvas tag
+> a gameloop designed for the html5 canvas tag.
+
 > includes the core methods/events of a game loop: start, end, pause, resume, update, draw
 
 Designed for use with [browserify](http://github.com/substack/node-browserify).
