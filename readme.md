@@ -22,6 +22,32 @@ npm install --save gameloop-canvas
 var game = require('gameloop-canvas')();
 ````
 
+#### Possible options:
+
+**canvas**
+
+Can be an id of a canvas, a canvas element, or leave empty for the module to create and append the canvas to the document.body with an id of game.
+
+**width**
+
+Set the width of the game/canvas. Default: 1024px.
+
+**height**
+
+Set the height of the game/canvas. Default: 480px.
+
+#### Example:
+
+```
+var Game = require('gameloop-canvas');
+
+var game = Game({
+	canvas: 'id-of-canvas',
+	width: 500,
+	height: 500
+});
+```
+
 ### Use update and draw events
 ````
 game.on('update', function(dt){});

@@ -1,6 +1,9 @@
-var game = require('./index')();
+var Game = require('./index');
 
-console.log(game)
+var game = Game({
+	width: 500,
+	height: 500
+});
 
 game.on('update', function(dt){
 	//console.log(dt);
