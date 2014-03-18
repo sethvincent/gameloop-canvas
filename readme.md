@@ -21,7 +21,7 @@ npm install --save gameloop-canvas
 ### Create a canvas and game object:
 ```
 var game = require('gameloop-canvas')();
-````
+```
 
 #### Possible options:
 
