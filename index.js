@@ -1,10 +1,10 @@
 var GameLoop = require('gameloop');
 
 module.exports = function(options){
-	options || (options = {})
-	var canvas;
+  options || (options = {})
+  var canvas;
 
-	if (!options.canvas){
+  if (!options.canvas){
     canvas = document.createElement('canvas');
     canvas.id = 'game';
     document.body.appendChild(canvas);
@@ -15,12 +15,12 @@ module.exports = function(options){
   }
 
   var game = new GameLoop({
-		renderer: canvas.getContext('2d')
-	});
+    renderer: canvas.getContext('2d')
+  });
 
-  game.canvas = canvas
-	game.width = canvas.width = options.width || 1024;
-	game.height = canvas.height = options.height || 480;
+  game.canvas = canvas;
+  game.width = canvas.width = options.width || 1024;
+  game.height = canvas.height = options.height || 480;
 
-	return game;
+  return game;
 }
