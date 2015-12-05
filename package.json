@@ -1,7 +1,7 @@
 {
   "name": "gameloop-canvas",
-  "description": "a gameloop designed for use the the html5 canvas tag",
-  "version": "0.3.3",
+  "description": "a gameloop designed for the html5 canvas tag",
+  "version": "1.0.0",
   "repository": {
     "url": "git://github.com/sethvincent/gameloop-canvas.git"
   },
@@ -11,7 +11,7 @@
     "start": "budo example.js --live"
   },
   "dependencies": {
-    "gameloop": "^0.3.3"
+    "gameloop": "^1.0.0"
   },
   "devDependencies": {
     "budo": "^7.0.2",
